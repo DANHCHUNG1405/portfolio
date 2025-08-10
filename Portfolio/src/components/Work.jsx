@@ -25,6 +25,12 @@ const works = [
     tags: ["Reactjs", "Tailwindcss"],
     projectLink: "#",
   },
+  {
+    imgSrc: "/images/chat-app.png",
+    title: "Chat app realtime",
+    tags: ["Reactjs", "Nodejs", "Expressjs", "Socket.io"],
+    projectLink: "https://github.com/DANHCHUNG1405/chat-app",
+  },
 ];
 
 const Work = () => {

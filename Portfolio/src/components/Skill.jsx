@@ -26,11 +26,10 @@ const skillItem = [
     label: "ExpressJS",
     desc: "Node Framework",
   },
-
   {
     imgSrc: "/images/react.svg",
     label: "React",
-    desc: "Framework",
+    desc: "UI Library",
   },
   {
     imgSrc: "/images/redux.svg",
@@ -40,12 +39,42 @@ const skillItem = [
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
-    desc: "User Interface",
+    desc: "Utility-first CSS",
   },
   {
     imgSrc: "/images/sequelize.svg",
     label: "Sequelize",
-    desc: "ORM for SQL",
+    desc: "SQL ORM",
+  },
+  {
+    imgSrc: "/images/PostgresSQL.svg",
+    label: "PostgreSQL",
+    desc: "Relational Database",
+  },
+  {
+    imgSrc: "/images/mongodb.svg",
+    label: "MongoDB",
+    desc: "NoSQL Database",
+  },
+  {
+    imgSrc: "/images/Ant Design.svg",
+    label: "Ant Design",
+    desc: "UI Component Library",
+  },
+  {
+    imgSrc: "/images/Next.js.svg",
+    label: "NextJS",
+    desc: "React Framework",
+  },
+  {
+    imgSrc: "/images/Nest.js.svg",
+    label: "NestJS",
+    desc: "Backend Framework",
+  },
+  {
+    imgSrc: "/images/Socket.io.svg",
+    label: "Socket.io",
+    desc: "Real-time Communication",
   },
 ];
 
@@ -53,7 +82,7 @@ const Skill = () => {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="headline-2 reveal-up">Essential Tools I use</h2>
+        <h2 className="headline-2 reveal-up">Technologies I Use</h2>
         <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
           Discover the powerful tools and technologies I use to create
           exceptional, high-performing websites & applications.

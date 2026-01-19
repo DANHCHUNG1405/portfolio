@@ -77,12 +77,12 @@ const skillItem = [
     desc: "Real-time Communication",
   },
   {
-    imgSrc: "/images/php.svg",
+    imgSrc: "/images/PHP.svg",
     label: "PHP",
     desc: "Server-side Language",
   },
   {
-    imgSrc: "/images/laravel.svg",
+    imgSrc: "/images/Laravel.svg",
     label: "Laravel",
     desc: "PHP Framework",
   },

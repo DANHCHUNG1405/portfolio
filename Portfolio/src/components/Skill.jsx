@@ -76,6 +76,16 @@ const skillItem = [
     label: "Socket.io",
     desc: "Real-time Communication",
   },
+  {
+    imgSrc: "/images/php.svg",
+    label: "PHP",
+    desc: "Server-side Language",
+  },
+  {
+    imgSrc: "/images/laravel.svg",
+    label: "Laravel",
+    desc: "PHP Framework",
+  },
 ];
 
 const Skill = () => {

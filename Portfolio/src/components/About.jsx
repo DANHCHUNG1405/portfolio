@@ -17,12 +17,7 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I'm Chung, a passionate Frontend Developer with hands-on
-            experience building responsive and user-friendly websites. Through
-            personal projects, I’ve developed a strong foundation in ReactJS,
-            JavaScript, and modern UI design. I enjoy turning ideas into clean,
-            functional, and visually appealing web applications that offer great
-            user experience.
+            Hi, I’m Chung, a Fullstack Developer specializing in the React and Node.js ecosystem. With a strong foundation in building responsive, high-performance user interfaces, I have expanded my expertise to include architecting robust backends and RESTful APIs. I am passionate about creating seamless, end-to-end digital solutions where clean frontend code meets efficient, scalable server-side logic.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (

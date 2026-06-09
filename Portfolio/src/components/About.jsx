@@ -3,11 +3,11 @@ import React from "react";
 const aboutItems = [
   {
     label: "Personal projects",
-    number: 5,
+    number: 6,
   },
   {
-    label: "Technologies learned",
-    number: 10,
+    label: "Real-world projects",
+    number: 4,
   },
 ];
 
@@ -17,12 +17,11 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I'm Chung, a passionate Frontend Developer with hands-on
-            experience building responsive and user-friendly websites. Through
-            personal projects, I’ve developed a strong foundation in ReactJS,
-            JavaScript, and modern UI design. I enjoy turning ideas into clean,
-            functional, and visually appealing web applications that offer great
-            user experience.
+            Hi, I’m Chung — a passionate Fullstack Developer experienced in
+            building scalable and user-friendly web applications. I work across
+            the stack with ReactJS, JavaScript/TypeScript, Node.js, and
+            databases, focusing on clean architecture, maintainable code, and
+            delivering high-performance applications with great user experience.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (

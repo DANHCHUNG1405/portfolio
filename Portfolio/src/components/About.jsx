@@ -3,7 +3,7 @@ import React from "react";
 const aboutItems = [
   {
     label: "Personal projects",
-    number: 6,
+    number: 7,
   },
   {
     label: "Real-world projects",
@@ -17,11 +17,13 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Hi, I’m Chung — a passionate Fullstack Developer experienced in
-            building scalable and user-friendly web applications. I work across
-            the stack with ReactJS, JavaScript/TypeScript, Node.js, and
-            databases, focusing on clean architecture, maintainable code, and
-            delivering high-performance applications with great user experience.
+            Hi, I’m Chung, a Fullstack Developer specializing in the React and
+            Node.js ecosystem. With a strong foundation in building responsive,
+            high-performance user interfaces, I have expanded my expertise to
+            include architecting robust backends and RESTful APIs. I am
+            passionate about creating seamless, end-to-end digital solutions
+            where clean frontend code meets efficient, scalable server-side
+            logic.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (

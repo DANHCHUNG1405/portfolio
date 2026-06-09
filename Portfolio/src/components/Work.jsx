@@ -31,6 +31,18 @@ const works = [
     tags: ["Reactjs", "Nodejs", "Expressjs", "Socket.io"],
     projectLink: "https://github.com/DANHCHUNG1405/chat-app",
   },
+  {
+    imgSrc: "/images/teacher-cms.png",
+    title: "Teacher CMS",
+    tags: ["Reactjs", "Nodejs", "Expressjs", "Ant Design"],
+    projectLink: "#",
+  },
+  {
+    imgSrc: "/images/review-tool.png",
+    title: "Review Tools AI",
+    tags: ["Nextjs", "Tailwindcss", "Laravel", "MongoDB"],
+    projectLink: "https://reviewtools.ai/",
+  },
 ];
 
 const Work = () => {

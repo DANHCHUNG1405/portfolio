@@ -17,6 +17,11 @@ const skillItem = [
     desc: "Interaction",
   },
   {
+    imgSrc: "/images/typescript.svg",
+    label: "TypeScript",
+    desc: "Typed JavaScript",
+  },
+  {
     imgSrc: "/images/nodejs.svg",
     label: "NodeJS",
     desc: "Web Server",
@@ -85,6 +90,16 @@ const skillItem = [
     imgSrc: "/images/Laravel.svg",
     label: "Laravel",
     desc: "PHP Framework",
+  },
+  {
+    imgSrc: "/images/redis.svg",
+    label: "Redis",
+    desc: "Caching System",
+  },
+  {
+    imgSrc: "/images/sails.svg",
+    label: "Sails.js",
+    desc: "Node.js Framework",
   },
 ];
 
